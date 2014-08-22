@@ -1,0 +1,21 @@
+[user]
+	name = Rafael Jacinto
+	email = rafael.jacinto@hootsuite.com
+[branch]
+	autosetuprebase = always
+[alias]
+	st = status
+	ci = commit -m
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+	co = checkout
+	go = checkout -b
+	up = pull --rebase
+	boom = reset --hard
+	snip = branch -d
+	kiri = branch -D
+	undo = reset HEAD~1
+	ship = pull --rebase origin master
+[core]
+	excludesfile = /Users/rafaelj/.gitignore_global
+[color]
+	ui = true
